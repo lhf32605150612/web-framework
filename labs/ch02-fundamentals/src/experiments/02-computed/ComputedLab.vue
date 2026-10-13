@@ -58,15 +58,21 @@ export default {
       if (this.notes.length === 0) return 0
       const done = this.notes.filter(n => n.done).length
       return Math.round((done / this.notes.length) * 100)
-    }
-  },
+    },
+     fullName: {
+    get() { return this.firstName + ' ' + this.lastName },
+    set(val) { [this.firstName, this.lastName] = val.split(' ') }
+  }
+
+ },
   methods: {
     getTotalChars() {
       console.log('[methods] getTotalChars 执行了 1 次')
       return this.notes.reduce((sum, n) => sum + n.text.length, 0)
     }
-  }
+  } 
 }
+
 </script>
 
 <style scoped>
