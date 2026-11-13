@@ -1,0 +1,7 @@
+{
+  "books": [
+    { "id": "1", "name": "Vue.js前端开发实战（第2版）", "author": "黑马程序员", "price": 59.8 },
+    { "id": "2", "name": "JavaScript高级程序设计（第4版）", "author": "马特·弗里斯比", "price": 129.0 },
+    { "id": "3", "name": "CSS新世界", "author": "张鑫旭", "price": 89.0 }
+  ]
+}
