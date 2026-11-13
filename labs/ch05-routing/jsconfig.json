@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+    "checkJs": false,
+    "strict": false
+  },
+  "include": ["src/**/*"]
+}
